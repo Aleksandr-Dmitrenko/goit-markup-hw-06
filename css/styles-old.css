@@ -182,13 +182,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
-text-align: center;
 }
 
 .items-social-networks {
     display: flex;
     justify-content: center;
-    gap: 24px;
     gap: 24px;
     margin-top: 8px;
 }
