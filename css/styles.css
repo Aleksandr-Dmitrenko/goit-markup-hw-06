@@ -348,6 +348,7 @@ background-color: #404BBF;
     max-height: 600px;
 
     padding-top: 188px;
+    padding-bottom: 48px;
   }
   
   .slogan-title {
@@ -357,5 +358,6 @@ background-color: #404BBF;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    
   }
 }
