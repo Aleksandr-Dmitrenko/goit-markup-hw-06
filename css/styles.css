@@ -452,6 +452,16 @@ background-color: #404BBF;
   .section .container {
     min-width: 1128px;
   }
+  .advantages-list-icons-conteiner {
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+  }
   .card-set {
     display: flex;
     flex-wrap: wrap;
@@ -459,8 +469,66 @@ background-color: #404BBF;
     gap: 24px;
   }
   .card-set-item {
-  width: calc((100% - 72px) / 4);
+    width: 264px;
+    width: calc((100% - 72px) / 4);
 }
+  .section .advantages-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .section .advantages-list-description {
+    font-weight: 400;
+    font-size: 16px;
+  }
 }
-/
+  /* #endregion advantages */
+
+  /* #region ourTeam */
+  
+  .page-team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: #f4f4fd;
+}
+
+  .card-set-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 72px;
+  border-radius: 0 0 4px 4px;
+}
+
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+  text-transform: capitalize;
+}
+
+.text-container-team {
+    text-align: center;
+    padding: 32px 0;
+}
+
+.our-team-list {
+  height: 428px;
+  display: block;
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  
+}
+
+
+
+
 
