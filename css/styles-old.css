@@ -1,10 +1,6 @@
 
     /* #region Slogan */
-.section {
-    padding: 120px 0;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
  .page-section-one {
     background-color: #2e2f42;
@@ -72,6 +68,11 @@ background-color: #404BBF;
     /* #endregion Slogan */
 
     /* #region advantages */
+  .section {
+    padding: 120px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .advantages-list-icons-conteiner {
     height: 112px;
