@@ -493,7 +493,16 @@ background-color: #404BBF;
     padding-top: 96px;
     padding-bottom: 96px;
     background-color: #f4f4fd;
+    
+
 }
+  .page-team .container {
+    max-width: 264px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
 
   .card-set-team {
   display: flex;
