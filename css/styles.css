@@ -1,3 +1,4 @@
+  /* #region base */
 .hidden {
   display: none;
 }
@@ -49,8 +50,10 @@ max-width: 1158px;
 padding: 0 15px;
 }
 }
+  /* #endregion base */
 
-/* #region header */
+
+  /* #region header */
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
@@ -199,9 +202,9 @@ padding: 0 15px;
   }
 }
 
-/* #endregion header */
+  /* #endregion header */
 
-/* #region mobile menu */
+  /* #region mobile menu */
 
 .mobile-menu {
   position: fixed;
@@ -253,7 +256,7 @@ padding: 0 15px;
 
 /* #endregion mobile menu */
 
-/* #region slogan section */
+  /* #region slogan section */
 
 .page-section-one {
   max-height: 432px;
@@ -363,7 +366,7 @@ background-color: #404BBF;
 /* #endregion slogan section */
 
 
-/* #region advantages */
+  /* #region advantages */
 .section {
   padding-top: 96px;
   padding-bottom: 96px;
@@ -578,9 +581,28 @@ background-color: #404BBF;
   fill: #f4f4fd;
 }
 
+
+@media screen and (min-width: 768px) {
+  
+  .card-set-team {
+    flex-wrap: wrap;
+    align-items: none;
+    justify-content: center;
+    flex-direction: row;
+    gap: 64px 24px;
+  }
+}
+/* #endregion ourTeam */
+
+  /* #region Portfolio */
   
   
+
+
   
   
-  
+    
+    
+    
+    
 
