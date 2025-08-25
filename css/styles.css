@@ -1283,6 +1283,10 @@ background-color: #404BBF;
   color: #4d5ae5;
   text-decoration: underline;
 }
+
+/* #endregion modal */
+
+/* #region hidden original checkbox */    
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -1294,5 +1298,4 @@ background-color: #404BBF;
   white-space: nowrap;
   border: 0;
 }
-
-  /* #endregion modal */
+      /* #endregion hidden original checkbox */
