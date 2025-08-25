@@ -887,10 +887,11 @@ background-color: #404BBF;
   }
 
   .container-footer {
+    display: flex;
     flex-wrap: nowrap;
-    flex-direction: none;
+    flex-direction: row; 
     align-items: baseline;
-    justify-content: none;
+    justify-content: flex-start; 
     gap: 0;
   }
 
