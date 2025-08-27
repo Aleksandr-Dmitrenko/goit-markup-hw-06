@@ -1161,10 +1161,6 @@ background-color: #404BBF;
 
 .modal-form-checkbox {
   margin-bottom: 24px;
-  display: inline-block;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 
 .modal-checkbox-label {
@@ -1172,7 +1168,12 @@ background-color: #404BBF;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+
+  display: flex;
+  align-items: center;
 }
+
+
 
 .checkbox-span {
   width: 16px;
@@ -1223,6 +1224,8 @@ background-color: #404BBF;
 .privacy_policy {
   color: #4d5ae5;
   text-decoration: underline;
+  
+  
 }
 
 .visually-hidden {
