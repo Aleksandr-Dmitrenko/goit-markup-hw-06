@@ -593,6 +593,10 @@ background-color: #404BBF;
 }
 
 @media screen and (min-width: 1158px) {
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
   .section .container {
     min-width: 1128px;
   }
@@ -729,6 +733,14 @@ background-color: #404BBF;
     gap: 64px 24px;
   }
 }
+@media screen and (min-width: 1158px) {
+  .page-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+}
+
+    
 /* #endregion ourTeam */
 
   /* #region Portfolio */
