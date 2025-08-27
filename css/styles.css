@@ -1189,6 +1189,9 @@ background-color: #404BBF;
   fill: transparent;
   margin-right: 8px;
 }
+.checkbox-span-text {
+  max-width: 231px;
+}
 
 .modal-form-icon-check {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1247,18 +1250,19 @@ background-color: #404BBF;
     min-height: 584px;
     padding-right: 24px;
     padding-left: 24px;
+    padding-top: 72px;
+    padding-bottom: 24px;
   }
   .send-button {
     transform: translateX(50%);
   }
-  .modal-checkbox-label {
-    justify-content: flex-start;
+  .checkbox-span-text {
+    max-width: 600px;
+  }
+  .checkbox-span-text {
+    max-width: 600px;
   }
 }
-@media screen and (min-width: 1158px) {
-  .modal-form-input {
-    padding-left: 38px;
-  }
-}
-/* #endregion modal */
 
+/* #endregion modal */
+  
