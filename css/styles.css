@@ -365,7 +365,7 @@ contacts-item:last-child .contacts-links {
   /* #region slogan section */
 
 .page-section-one {
-  max-height: 432px;
+  
   max-width: 320px;
   margin: 0 auto; 
   background-color: #2e2f42;
@@ -425,7 +425,6 @@ background-color: #404BBF;
 
 @media screen and (min-width: 768px) {
   .page-section-one {
-    max-height: 436px;
     max-width: 768px;
 
     padding-top: 112px;
@@ -447,13 +446,13 @@ background-color: #404BBF;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 36px;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .page-section-one {
-    max-width: 1158px;
-    max-height: 600px;
+    max-width: 1440px;
 
     padding-top: 188px;
     padding-bottom: 188px;
@@ -466,7 +465,8 @@ background-color: #404BBF;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    
+    margin-bottom: 48px;
+
   }
 }
 /* #endregion slogan section */
@@ -599,17 +599,12 @@ background-color: #404BBF;
     padding-top: 96px;
     padding-bottom: 96px;
     background-color: #f4f4fd;
-    
-
 }
-  .page-team .container {
-    margin-top: 120px;
-  }
 
   .card-set-team {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
   gap: 72px;
   border-radius: 0 0 4px 4px;
 }
@@ -621,8 +616,8 @@ background-color: #404BBF;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-bottom: 72px;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .text-container-team {
@@ -631,13 +626,11 @@ background-color: #404BBF;
 }
 
 .our-team-list {
-  height: 428px;
   display: block;
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  box-shadow: 
-    0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   
 }
@@ -648,7 +641,6 @@ background-color: #404BBF;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  text-align: center;
   }
 
 .our-team-list-description {
@@ -656,9 +648,8 @@ background-color: #404BBF;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
-  margin-bottom: 8px;
+  text-align: center;
 }
 
 .items-social-networks {
@@ -843,11 +834,12 @@ background-color: #404BBF;
     color: #f4f4fd;
   }
   .footer-text {
-   max-width: 288px; 
+  max-width: 288px; 
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  text-align: left;
   }
   .social-footer-text {
   margin-bottom: 16px;
@@ -909,7 +901,7 @@ background-color: #404BBF;
   display: flex;
   align-items: center;
 }
-.input-field-email {
+.input-field-emaill {
   width: 288px;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -922,7 +914,7 @@ background-color: #404BBF;
   border-radius: 4px;
   color: rgba(255, 255, 255);
 }
-.input-field-email::placeholder {
+.input-field-emaill::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 .submit-subscribe {
@@ -953,12 +945,12 @@ background-color: #404BBF;
   .container-footer {
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: baseline;
     gap: 72px 24px;
-    justify-content: center;
     margin: 0 auto;
+    padding: 0 108px;
 }
-  .footer-text-container {
+ 
+   .footer-text-container {
     text-align: left;
   }
   .footer-text {
@@ -967,38 +959,32 @@ background-color: #404BBF;
   .social-media-conteiner {
     margin: 0;
   }
-  .social-footer-text {
-    text-align: left;
-  }
+  
   .subscribe-conteiner {
     text-align: left;
-    width: 453px;
   }
-  .subscribe-text-conteiner {
-    text-align: start;
-  }
+  
   .email-form {
     flex-direction: row;
     gap: 24px;
   }
-  .input-field-email {
+  .input-field-emaill {
     width: 264px;
   }
 
 }
 
 @media screen and (min-width: 1158px) {
-.page-footer {
+  .page-footer {
     padding: 100px 0;
   }
 
   .container-footer {
-    display: flex;
     flex-wrap: nowrap;
-    flex-direction: row; 
     align-items: baseline;
-    justify-content: flex-start; 
+
     gap: 0;
+    padding: 0 15px;
   }
 
   .footer-text-container {
@@ -1007,20 +993,19 @@ background-color: #404BBF;
   .social-media-conteiner {
     margin-right: 80px;
   }
-  .input-field-email {
+  .input-field-emaill {
     border: 1px solid rgba(255, 255, 255);
   }
-  .input-field-email::placeholder {
+  .input-field-emaill::placeholder {
     color: rgba(255, 255, 255);
   }
-  .input-field-email::placeholder {
+  .input-field-emaill::placeholder {
     color: rgba(255, 255, 255);
   }
 }
   /* #endregion footer */
 
-
-  /* modal */
+  /* #region modal */
 .backdrop {
   position: fixed;
   top: 0;
@@ -1303,3 +1288,4 @@ background-color: #404BBF;
   }
 }
 /* #endregion modal */
+
