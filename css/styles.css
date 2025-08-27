@@ -1168,6 +1168,7 @@ background-color: #404BBF;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+
   display: flex;
   align-items: center;
 }
@@ -1184,6 +1185,7 @@ background-color: #404BBF;
   align-items: center;
   justify-content: center;
   fill: transparent;
+
   margin-right: 8px;
 }
 
