@@ -1168,12 +1168,9 @@ background-color: #404BBF;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-
   display: flex;
   align-items: center;
 }
-
-
 
 .checkbox-span {
   width: 16px;
@@ -1188,9 +1185,6 @@ background-color: #404BBF;
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
-}
-.checkbox-span-text {
-  max-width: 231px;
 }
 
 .modal-form-icon-check {
@@ -1227,8 +1221,6 @@ background-color: #404BBF;
 .privacy_policy {
   color: #4d5ae5;
   text-decoration: underline;
-  
-  
 }
 
 .visually-hidden {
@@ -1244,25 +1236,24 @@ background-color: #404BBF;
 }
 
 
+
 @media screen and (min-width: 768px) {
   .modal {
     width: 408px;
     min-height: 584px;
     padding-right: 24px;
     padding-left: 24px;
-    padding-top: 72px;
-    padding-bottom: 24px;
   }
   .send-button {
     transform: translateX(50%);
   }
-  .checkbox-span-text {
-    max-width: 600px;
-  }
-  .checkbox-span-text {
-    max-width: 600px;
+  .modal-checkbox-label {
+    justify-content: flex-start;
   }
 }
-
-/* #endregion modal */
-  
+@media screen and (min-width: 1158px) {
+  .modal-form-input {
+    padding-left: 38px;
+  }
+}
+  /* */
