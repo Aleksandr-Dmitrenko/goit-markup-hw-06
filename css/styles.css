@@ -896,6 +896,7 @@ background-color: #404BBF;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 .social-media-conteiner {
   font-weight: 500;
@@ -1002,6 +1003,9 @@ background-color: #404BBF;
   }
   .footer-text {
     max-width: 264px;
+  }
+  .social-footer-text {
+    text-align: left;
   }
   .social-media-conteiner {
     margin: 0;
